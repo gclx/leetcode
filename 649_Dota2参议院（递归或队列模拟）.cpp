@@ -42,7 +42,7 @@ public:
     }
 
     string predictPartyVictory(string senate) {
-        cout << senate << endl;
+        //cout << senate << endl;
         int f;
         if (f = check(senate))
             return (f == 1) ? "Radiant" : "Dire";
